@@ -11,11 +11,11 @@ import hashlib
 # lined_contents = contents.split("\n")
 
 
-name1 = "test_file1"
-name2 = "test_file2"
+name1 = "sources/main.cpp"
+name2 = "output/main.cpp"
 fin = open(name1, "r")
 data2 = fin.read()
 fin.close()
-fout = open(name2, "a")
+fout = open(name2, "w")
 fout.write(data2)
 fout.close()
