@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-import fileinput
 import sys
-import re
-import hashlib
 
+print("running")
 exec(open("stuff/build.py").read())
