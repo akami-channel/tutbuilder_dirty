@@ -21,8 +21,8 @@ def make_dir(directory_to_make):
 
 make_dir("output/SDLGL_tuts_dirty")
 make_dir("output/SDLGL_tuts_dirty/Libraries")
-# copy_tree("sources/Libraries", "output/SDLGL_tuts_dirty/Libraries")
-# copy_tree("sources/Tutorials", "output/SDLGL_tuts_dirty/Tutorials")
+copy_tree("sources/Libraries", "output/SDLGL_tuts_dirty/Libraries")
+copy_tree("sources/Tutorials", "output/SDLGL_tuts_dirty/Tutorials")
 
 # make_dir("output/SDLGL_tuts_dirty/Tutorials")
 # make_dir("output/SDLGL_tuts_dirty/Tutorials/01_create_window")
