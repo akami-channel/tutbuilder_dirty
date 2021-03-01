@@ -35,7 +35,7 @@ copy_tree("sources/Tutorials", "output/SDLGL_tuts_dirty/Tutorials")
 
 
 # exec("do_checksums.sh")
-subprocess.call("stuff/do_checksums.sh")
+# subprocess.call("stuff/do_checksums.sh")
 # # this bash command thing does not like you cd'ing somewhere else; use cwd argument below
 # bashCommand = 'find . -type f -exec md5sum {} \; | sort -k 2 | md5sum'
 # # bashCommand = "pwd"
